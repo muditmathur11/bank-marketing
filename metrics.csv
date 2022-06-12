@@ -1,0 +1,5 @@
+Name,Value,Timestamp,Step
+"train__model_name","LogisticRegression()",1654965325823,1
+"train__accuracy",0.9105770008901837,1654965325823,1
+"train__f1_score",0.9017341994602426,1654965325823,1
+"train__precision",0.6359393232205367,1654965325823,1

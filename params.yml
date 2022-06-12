@@ -1,0 +1,25 @@
+model_class: LogisticRegression
+pipe_lr:
+  clf: LogisticRegression()
+  clf__C: 1.0
+  clf__class_weight: null
+  clf__dual: false
+  clf__fit_intercept: true
+  clf__intercept_scaling: 1
+  clf__l1_ratio: null
+  clf__max_iter: 100
+  clf__multi_class: auto
+  clf__n_jobs: null
+  clf__penalty: l2
+  clf__random_state: null
+  clf__solver: lbfgs
+  clf__tol: 0.0001
+  clf__verbose: 0
+  clf__warm_start: false
+  memory: null
+  scaler: StandardScaler()
+  scaler__copy: true
+  scaler__with_mean: true
+  scaler__with_std: true
+  steps: '[(''scaler'', StandardScaler()), (''clf'', LogisticRegression())]'
+  verbose: false

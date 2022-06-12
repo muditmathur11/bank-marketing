@@ -1,0 +1,4 @@
+outs:
+- md5: 290d78330f0232aea8d5ea3e9e5a75c8
+  size: 2410
+  path: pipe_lr.pkl
